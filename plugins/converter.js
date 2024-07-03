@@ -30,7 +30,7 @@ let buff = await getBuffer(`https://vihangayt.me/maker/text2gif?q=${match}`);
 /* Copyright (C) 2024 Louis-X0.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Louis-X0 - Zeta-XD
+Louis-X0 - ACHU-MD
 */
 
 
@@ -49,9 +49,9 @@ command(
       listall("Izumi").forEach((txt, num) => {
         text += `${(num += 1)} ${txt}\n`;
       });
-        text += "\n\n𝐀𝐒𝐓𝐑𝐎"
+        text += "\n\n𝐀𝐂𝐇𝐔-𝐌𝐃"
       return await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗 𝗙𝗔𝗡𝗖𝗬 𝗠𝗘𝗡𝗨" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝗔𝗦𝗧𝗥𝗢 𝗫𝗗",
+title: "𝐀𝐂𝐇𝐔𝐌𝐃",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
@@ -69,7 +69,7 @@ thumbnailUrl: "https://i.imgur.com/dilVhjc.jpeg" }}, caption: (text)}, {quoted: 
 /* Copyright (C) 2024 Louis-XD.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Louis-XD - Zeta-XD
+Louis-XD - 𝐀𝐂𝐇𝐔𝐌𝐃
 */
 
 command(
@@ -86,7 +86,7 @@ command(
     message.sendMessage(
       buff,
       { packname: config.STICKER_DATA.split(";")[0], author: config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝗔𝗦𝗧𝗥𝗢 𝗫𝗗",
+title: "𝐀𝐂𝐇𝐔-𝐌𝐃",
 body: "𝘾𝙤𝙣𝙫𝙚𝙧𝙩𝙚𝙙 𝙄𝙣𝙩𝙤 𝙎𝙩𝙞𝙘𝙠𝙚𝙧",
 sourceUrl: "",
 mediaUrl: "",
@@ -167,14 +167,14 @@ command(
       {
         packname: packname || config.STICKER_DATA.split(";")[0],
         author: author || config.STICKER_DATA.split(";")[1], contextInfo: { externalAdReply: {
-title: "𝗔𝗦𝗧𝗥𝗢 𝗫𝗗",
+title: "𝐀𝐂𝐇𝐔𝐌𝐃",
 body: `𝙏𝙖𝙠𝙚𝙙 𝙏𝙤 ${match}`,
 sourceUrl: "",
 mediaUrl: "",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/dilVhjc.jpeg" }}
+thumbnailUrl: "https://i.imgur.com/aOhnfDH.jpeg" }}
       },
       "sticker"
     );
